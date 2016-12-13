@@ -438,14 +438,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Chinabank Payments Co., Ltd. (C3X3W45J2Y)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chinabank Payments Co., Ltd. (C3X3W45J2Y)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C3X3W45J2Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RWReactivePlayground/RWReactivePlayground-Prefix.pch";
 				INFOPLIST_FILE = "RWReactivePlayground/RWReactivePlayground-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyin.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d3a67995-27ae-4ded-8a98-337774fd1c12";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = ad_hoc_distribution;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
