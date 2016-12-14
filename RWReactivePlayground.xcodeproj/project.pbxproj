@@ -42,7 +42,7 @@
 		72A2881D18618A2E00DDD30A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72A2881F18618A2E00DDD30A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		72A2882118618A2E00DDD30A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		72A2882518618A2E00DDD30A /* RWReactivePlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RWReactivePlayground-Info.plist"; sourceTree = "<group>"; };
+		72A2882518618A2E00DDD30A /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		72A2882718618A2E00DDD30A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72A2882918618A2E00DDD30A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72A2882B18618A2E00DDD30A /* RWReactivePlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RWReactivePlayground-Prefix.pch"; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		72A2882418618A2E00DDD30A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				72A2882518618A2E00DDD30A /* RWReactivePlayground-Info.plist */,
+				72A2882518618A2E00DDD30A /* info.plist */,
 				72A2882618618A2E00DDD30A /* InfoPlist.strings */,
 				72A2882918618A2E00DDD30A /* main.m */,
 				72A2882B18618A2E00DDD30A /* RWReactivePlayground-Prefix.pch */,
@@ -441,7 +441,7 @@
 				DEVELOPMENT_TEAM = C3X3W45J2Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RWReactivePlayground/RWReactivePlayground-Prefix.pch";
-				INFOPLIST_FILE = "RWReactivePlayground/RWReactivePlayground-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RWReactivePlayground/info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyin.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d3a67995-27ae-4ded-8a98-337774fd1c12";
@@ -461,7 +461,7 @@
 				DEVELOPMENT_TEAM = C3X3W45J2Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RWReactivePlayground/RWReactivePlayground-Prefix.pch";
-				INFOPLIST_FILE = "RWReactivePlayground/RWReactivePlayground-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RWReactivePlayground/info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyin.wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d3a67995-27ae-4ded-8a98-337774fd1c12";
